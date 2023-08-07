@@ -21,7 +21,7 @@ export const getSisfohDataByDni=async (dni='')=>{
         if(($tables.length<7)){
             console.log('no se encontraron las tablas necesarias')
             return null;
-          }
+        }
        const $tableDatosBasicos=$tables[4]
        const $tableDatosFamiliares=$tables[8]
        const $tableDatosClasificacion=$tables[6]
